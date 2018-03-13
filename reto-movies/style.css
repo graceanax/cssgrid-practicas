@@ -142,11 +142,14 @@ figure {  margin: 0; }
 
 .type-movie-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(434px, 550px));
   justify-content: center;
   grid-gap: 28px;
 }
 
+@media screen and (max-width: 768px) {
+
+}
 .movie-card p {
   margin: 0 0 .5em;
 }
