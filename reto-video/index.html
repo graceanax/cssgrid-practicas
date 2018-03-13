@@ -11,42 +11,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <aside class="aside">
-    <header class="aside-header">
-      <h1>Platzi <span>Video</span></h1>
-    </header>
-    <section class="aside-playlist">
-      <h2>Mi playlist</h2>
-      <ol class="playlist-list">
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-        <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
-      </ol>
+  <div class="container main-grid">
+    <section class="item sidebar">
+      <header class="aside-header">
+        <h1>Platzi <span>Video</span></h1>
+      </header>
+      <section class="aside-playlist">
+        <h2>Mi playlist</h2>
+        <ol class="playlist-list">
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+          <li> <a href="#">5 Reasons To Choose A Notebook Over a Computer Desktop</a></li>
+        </ol>
+      </section>
+      <section class="aside-friends">
+        <h2>Playlist de Amigos</h2>
+        <ul class="list-friends">
+          <li>
+            <figure><img src="perfil.jpg" alt=""></figure>
+            <span>Gornon Carroll</span>
+          </li>
+          <li>
+            <figure><img src="perfil.jpg" alt=""></figure>
+            <span>Gornon Carroll</span>
+          </li>
+        </ul>
+      </section>
     </section>
-    <section class="aside-friends">
-      <h2>Playlist de Amigos</h2>
-      <ul class="list-friends">
-        <li>
-          <figure><img src="perfil.jpg" alt=""></figure>
-          <span>Gornon Carroll</span>
-        </li>
-        <li>
-          <figure><img src="perfil.jpg" alt=""></figure>
-          <span>Gornon Carroll</span>
-        </li>
-      </ul>
-    </section>
-  </aside>
-  <section class="main">
-    <header class="main-header">
+    <section class="item header">
       <section class="header-player">Reproductor</section>
       <section class="header-description">
         <h2 class="header-description__titulo">New Order - Buzarre Love Triangle</h2>
@@ -75,41 +75,43 @@
           </li>
         </ul>
       </section>
-    </header>
-    <section class="main-comments">
-      <h3>Comentarios</h3>
-      <div class="comments__add-comment">
-        <input type="text" class="ipt ipt__commentario" placeholder="Añade un commentario">
-        <figure class="avatar avatar--s"><img src="perfil.jpg" alt=""></figure>
-      </div>
-      <ul class="comment__list list--vertical">
-        <li class="comments__items">
-          <figure class="avatar"><img src="perfil.png" alt=""></figure>
-          <span class="comment__user">Gordon Carroll</span>
-          <p class="comment__text">Lorem ipsum dolor sit amet consectetur.</p>
-        </li>
-        <li class="comments__items">
-          <figure class="avatar"><img src="perfil.jpg" alt=""></figure>
-          <span class="comment__user">Gordon Carroll</span>
-          <p class="comment__text">Lorem ipsum dolor sit amet consectetur.</p>
-        </li>
-      </ul>
     </section>
-  </section>
-  <section class="main-suggestions">
-    <h3>Sugerencias</h3>
-    <div class="suggest__item">
-      <figure class="suggest__img"><img src="suggest.jpeg" alt=""></figure>
-      <p class="suggest_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque.</p>
-    </div>
-    <div class="suggest__item">
-      <figure class="suggest__img"><img src="suggest.jpeg" alt=""></figure>
-      <p class="suggest_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque.</p>
-    </div>
-    <div class="suggest__item">
-      <figure class="suggest__img"><img src="suggest.jpeg" alt=""></figure>
-      <p class="suggest_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque.</p>
-    </div>
-  </section>
+    <section class="item main">
+      <section class="main-comments">
+        <h3>Comentarios</h3>
+        <div class="comments__add-comment">
+          <input type="text" class="ipt ipt__commentario" placeholder="Añade un commentario">
+          <figure class="avatar avatar--s"><img src="perfil.jpg" alt=""></figure>
+        </div>
+        <ul class="comment__list list--vertical">
+          <li class="comments__items">
+            <figure class="avatar"><img src="perfil.png" alt=""></figure>
+            <span class="comment__user">Gordon Carroll</span>
+            <p class="comment__text">Lorem ipsum dolor sit amet consectetur.</p>
+          </li>
+          <li class="comments__items">
+            <figure class="avatar"><img src="perfil.jpg" alt=""></figure>
+            <span class="comment__user">Gordon Carroll</span>
+            <p class="comment__text">Lorem ipsum dolor sit amet consectetur.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="main-suggestions">
+        <h3>Sugerencias</h3>
+        <div class="suggest__item">
+          <figure class="suggest__img"><img src="suggest.jpeg" alt=""></figure>
+          <p class="suggest_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque.</p>
+        </div>
+        <div class="suggest__item">
+          <figure class="suggest__img"><img src="suggest.jpeg" alt=""></figure>
+          <p class="suggest_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque.</p>
+        </div>
+        <div class="suggest__item">
+          <figure class="suggest__img"><img src="suggest.jpeg" alt=""></figure>
+          <p class="suggest_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque.</p>
+        </div>
+      </section>
+    </section>
+  </div>
 </body>
 </html>
