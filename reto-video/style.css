@@ -1,0 +1,10 @@
+/* #base*/
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+figure img { max-width: 100%; }
+
+figure {  margin: 0; }
